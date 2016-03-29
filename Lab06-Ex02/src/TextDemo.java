@@ -1,3 +1,9 @@
+/*Issue: right now, clicking the radio button you want in the menu is what is calling the action listener
+* to making the temp conversions. But, the "Convert" button is what is checking for valid input. I want 
+* to fix/combine this so that the user selects an option from the menu, but then clicks the Convert button which 
+* will do the conversion and check for valid input
+*/
+
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.Component;
